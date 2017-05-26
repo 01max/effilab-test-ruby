@@ -17,6 +17,7 @@ The purpose of this app is to print to console some Adwords data:
   - It should be easier to understand and maintain
   - You can create as many classes, modules and files as needed
   - Keep in mind we'll want to add some new functionalities, change the output, use another Adwords service, etc.
+  - Performance matters and we'll look at how you managed to improve it
 - You need to setup and provide a test suite using RSpec 3
 - There are many possibilities for code optimization and performance improvements so do your best
 
