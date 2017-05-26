@@ -1,7 +1,4 @@
 require 'adwords_api'
-# Use the following if you have trouble with SSL eg:
-# SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (Faraday::SSLError)
-# require './faraday_ssl_bypass'
 
 API_VERSION = :v201702
 @adwords = nil
