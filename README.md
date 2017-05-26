@@ -14,29 +14,30 @@ The purpose of this app is to print to console some Adwords data:
 ### Our expectations
 - The given code already meet the specifications, but it could be greatly improved in many ways
 - You need to refactor `main.rb`
- - It should be easier to understand and maintain
- - You can create as many classes, modules and files as needed
- - Keep in mind we'll want to add some new functionalities, change the output, use another Adwords service, etc.
+  - It should be easier to understand and maintain
+  - You can create as many classes, modules and files as needed
+  - Keep in mind we'll want to add some new functionalities, change the output, use another Adwords service, etc.
 - You need to setup and provide a test suite using RSpec 3
 - There are many possibilities for code optimization and performance improvements so do your best
-- **Your will present us your work and should justify your choices**
+
+**You will present us your work and should justify your choices**
 
 ### What do we look at ?
-  - The quality of your code
-  - The quality of your commits
-  - _One commit_ repository won't be accepted
-  - Technical choices
+- The quality of your code
+- The quality of your commits
+- _One commit_ repository won't be accepted
+- Technical choices
 
 ### How to start ?
- - Run `sh ./run.sh` to setup `adwords_api.yml`.
- - With the documentation we provided you, set the following values:
+- Run `sh ./run.sh` to setup `adwords_api.yml`.
+- With the documentation we provided you, set the following values:
   - `oauth2_client_id`
   - `oauth2_client_secret`
   - `developer_token`
   - `client_customer_id`
- - Run `sh ./run.sh`. It should successfully run.
- - Start to work on it.
- - Once you're done, send us a mail with the link.
+- Run `sh ./run.sh`. It should successfully run.
+- Start to work on it.
+- Once you're done, send us a mail with the link.
 
 ## Ressources
 - Adwords URL: https://adwords.google.com
