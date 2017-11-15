@@ -1,10 +1,8 @@
 export HOME=`pwd`
 
 file="adwords_api.yml"
-if [ -f "$file" ]
+if [ ! -f "$file" ]
 then
-  echo 'File exists. ruby main.rb....'
-else
   cat > $file <<- EOM
 ---
 # This is an example configuration file for the AdWords API client library.

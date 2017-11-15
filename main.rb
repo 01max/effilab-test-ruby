@@ -22,17 +22,12 @@ def setup_oauth2()
     verification_code = gets.chomp
     verification_code
   end
-  if token
-    unless verification_code.nil?
-      print "\nWould you like to update your adwords_api.yml to save " +
-          "OAuth2 credentials? (y/N): "
-      response = gets.chomp
-    end
-    if response.nil? or ('y'.casecmp(response) == 0) or ('yes'.casecmp(response) == 0)
-      @adwords.save_oauth2_token(token)
-      puts 'OAuth2 token is now saved to ~/adwords_api.yml and will be ' +
-          'automatically used by the library.'
-    end
+  if verification_code && token
+    puts 'Updating adwords_api.yml with OAuth credentials.'
+    @adwords.save_oauth2_token(token)
+    puts 'OAuth2 token is now saved and will be automatically used by the library.'
+    puts 'Please restart the script now.'
+    abort
   end
 
   # Alternatively, you can provide one within the parameters:
