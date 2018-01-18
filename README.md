@@ -44,6 +44,6 @@ The purpose of this app is to print to console some Adwords data:
 - Adwords URL: https://adwords.google.com
 - Ruby library: https://github.com/googleads/google-api-ads-ruby/tree/master/adwords_api
 - Adwords API Documentation:
-  - operators: https://developers.google.com/adwords/api/docs/reference/v201609/CampaignService.Predicate.Operator
+  - operators: https://developers.google.com/adwords/api/docs/reference/v201710/CampaignService.Predicate.Operator
 - Useful link:
-  - get campaigns: https://github.com/googleads/google-api-ads-ruby/blob/master/adwords_api/examples/v201601/basic_operations/get_campaigns.rb
+  - get campaigns: https://github.com/googleads/google-api-ads-ruby/blob/master/adwords_api/examples/v201710/basic_operations/get_campaigns.rb
