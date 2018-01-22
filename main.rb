@@ -1,6 +1,6 @@
 require 'adwords_api'
 
-API_VERSION = :v201702
+API_VERSION = :v201710
 @adwords = nil
 
 def setup_oauth2()
