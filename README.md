@@ -40,7 +40,7 @@ The purpose of this app is to print to console some Adwords data:
 - Start to work on it.
 - Once you're done, send us a mail with the link.
 
-## Ressources
+## Resources
 - Adwords URL: https://adwords.google.com
 - Ruby library: https://github.com/googleads/google-api-ads-ruby/tree/master/adwords_api
 - Adwords API Documentation:
